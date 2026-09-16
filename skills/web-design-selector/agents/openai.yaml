@@ -1,0 +1,7 @@
+interface:
+  display_name: "Web Design Selector"
+  short_description: "Select and adapt a DESIGN.md before web UI work"
+  default_prompt: "Use $web-design-selector to shortlist three fitting design systems for this website before implementation."
+
+policy:
+  allow_implicit_invocation: true
