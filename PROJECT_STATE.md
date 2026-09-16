@@ -12,15 +12,15 @@ Provide a versioned portable Work OS that can be safely installed on multiple co
 
 ## Current Outcome
 
-Local 0.2.0 package adds portable web-design selection and is ready for a release-location decision.
+Version 0.2.0 is published as a private GitHub repository and ready for installation on another computer.
 
 ## Current Phase
 
-Ready for release-location decision.
+Initial distribution complete.
 
 ## Current Task
 
-Complete GitHub sign-in, create the approved private remote, and push the initial release.
+Provide the verified cross-computer installation steps; make later package changes through normal Git commits and pushes.
 
 ## Confirmed
 
@@ -32,14 +32,15 @@ Complete GitHub sign-in, create the approved private remote, and push the initia
 - The existing web-design-selector source is now owned by this package; its prior Secondbrain path is a compatibility link.
 - A fresh computer can bootstrap the selector with either an existing design library or an explicit library download.
 - The initial commit contains only the 27 Work OS package files.
+- The private remote is `git@github.com:SC-Luo/secondbrain-codex-work-os.git`, and `main` tracks `origin/main`.
 
 ## Inferred
 
-- A private Git remote will be the appropriate later distribution channel.
+- A private Git remote is the appropriate distribution channel for the current package.
 
 ## Unknown
 
-- The final GitHub repository URL, pending account sign-in and creation.
+- Which computer will be used for the first clean installation verification.
 
 ## Blockers
 
@@ -51,7 +52,7 @@ Complete GitHub sign-in, create the approved private remote, and push the initia
 
 ## Next Best Action
 
-After GitHub sign-in, create the private remote, add `origin`, push `main`, and record the resulting URL.
+Clone the private repository on the other computer and run the documented core and web-design installation commands.
 
 ## Verification
 
@@ -63,6 +64,7 @@ After GitHub sign-in, create the private remote, add `origin`, push `main`, and 
 - Windows PowerShell scripts were not executed because PowerShell is unavailable on this host.
 - The selector passed isolated bootstrap, pointer, global-rule, source-resolution, Python syntax, and design-library health checks.
 - Initial Git commit passed `git diff --cached --check` before commit.
+- GitHub confirmed the private repository, `main`, README, and all 27 initial package files after push.
 
 ## Canonical References
 
